@@ -66,7 +66,7 @@ Make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/animesh156/mental-wellness-app.git
+git clone https://github.com/Visal-2406/Mind-Matter-App.git
 
 ```
 
