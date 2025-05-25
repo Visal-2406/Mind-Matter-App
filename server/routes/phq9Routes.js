@@ -20,9 +20,13 @@ router.post('/submit', async (req, res) => {
   if (!userId || !date || !Array.isArray(responses) || responses.length !== 9) {
     return res.status(400).json({ error: 'Invalid input. Provide userId, date, and 9 responses.' });
   }
+<<<<<<< HEAD
   if (!responses.every(val => [0,1,2,3].includes(val))) {
     return res.status(400).json({ error: 'Responses must be 0-3.' });
   }
+=======
+
+>>>>>>> 147fc2cb2e9e589a06290b2d51d0a6ee21fad80c
   try {
     const user = await User.findById(userId);
     if (!user) {
@@ -47,9 +51,21 @@ router.post('/submit', async (req, res) => {
 
 router.get('/result/:userId', async (req, res) => {
   const userId = req.params.userId;
+<<<<<<< HEAD
   try {
     const data = await PHQ9Response.find({ userId});
     res.status(200).json({ success: true, data });
+=======
+  const currentDate = new Date().toISOString().split('T')[0]; // Format as YYYY-MM-DD
+
+  try {
+    const data = await PHQ9Response.find({ userId, date: currentDate });
+    if (data.length > 0) {
+      res.status(200).json({ success: true, data });
+    } else {
+      res.status(404).json({ success: false, message: 'No data found for the current day.' });
+    }
+>>>>>>> 147fc2cb2e9e589a06290b2d51d0a6ee21fad80c
   } catch (error) {
     console.error('Error fetching data:', error);
     res.status(500).json({ success: false, message: 'Internal Server Error' });
