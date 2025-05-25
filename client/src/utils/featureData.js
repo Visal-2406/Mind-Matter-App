@@ -12,7 +12,7 @@ export const features = [
       "Expert-led sessions tailored to your needs, from beginner to advanced practitioners.",
     icon: FaRegHeart,
     color: "text-violet-500",
-    url: "/features/meditation", // Updated URL
+    url: "/features/meditation", 
   },
   {
     title: "Mood Tracking",
@@ -20,7 +20,7 @@ export const features = [
       "Track your emotional patterns and gain insights into your mental well-being journey.",
     icon: BsBarChart,
     color: "text-blue-500",
-    url: "/features/mood", // Placeholder URL (you can add this feature later)
+    url: "/features/mood",
   },
   {
     title: "Sleep Stories",
@@ -28,7 +28,7 @@ export const features = [
       "Calming narratives and sounds to help you achieve better sleep quality.",
     icon: MdOutlineAccessTime,
     color: "text-yellow-500",
-    url: "/features/stories", // Updated URL
+    url: "/features/stories",
   },
   {
     title: "Community Support",
@@ -36,7 +36,7 @@ export const features = [
       "Connect with others on similar journeys and share experiences in a safe space.",
     icon: IoIosPeople,
     color: "text-pink-500",
-    url: "/features/community", // Placeholder URL (you can add this feature later)
+    url: "/features/community",
   },
   {
     title: "Daily Journal",
@@ -44,7 +44,7 @@ export const features = [
       "Document your thoughts and feelings with guided journaling prompts.",
     icon: BsJournalBookmark,
     color: "text-orange-500",
-    url: "/features/journal", // Placeholder URL (you can add this feature later)
+    url: "/features/journal",
   },
   {
     title: "Instant Exercises",
@@ -52,7 +52,7 @@ export const features = [
       "Quick stress-relief techniques and breathing exercises for immediate calm.",
     icon: AiOutlineThunderbolt,
     color: "text-green-500",
-    url: "/features/exercises", // Updated URL
+    url: "/features/exercises",
   },
 ];
 
