@@ -39,7 +39,7 @@ function Navbar() {
       <div className="nav-container">
         <div className="nav-logo">
          
-         <p className="text-white text-xl font-bold">MindWell</p>
+         <p className="text-white text-xl font-bold">MindMatter</p>
          
         </div>
 
@@ -89,7 +89,7 @@ function Navbar() {
 
 {user ?  <li className="nav-item">
             <button onClick={onLogout}>
-              LogOut
+              Logout
             </button>
           </li>  : null}
 
