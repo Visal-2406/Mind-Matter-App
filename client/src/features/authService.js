@@ -1,13 +1,9 @@
 import axios from 'axios'
 
-const registerRoute = "https://mental-wellness-backend.vercel.app/user/sign"
+const API_URL = process.env.REACT_APP_API_URL
 
-
-const loginRoute =    "https://mental-wellness-backend.vercel.app/user/login"
-
-
-
-
+const registerRoute = `${API_URL}/user/sign`
+const loginRoute = `${API_URL}/user/login`
 
 // Register user
 const register = async (userData) => {
