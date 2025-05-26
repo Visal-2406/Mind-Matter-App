@@ -3,7 +3,7 @@ const app = express()
 const dotenv = require('dotenv').config()
 const cors = require('cors')
 const connectDB = require('./config/db')
-const port = process.env.PORT
+const port = process.env.PORT || 5000
 const phq9Routes = require('./routes/phq9Routes')
 const userRoutes = require('./routes/userRoute')
 
