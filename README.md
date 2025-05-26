@@ -1,7 +1,7 @@
 
-# MindWell
+# MindMatter
 
-MindWell is a mental wellness web application that helps users improve their mental health through meditation, mindfulness exercises, emotional support, and self-assessment tools. The platform provides personalized features for users to track and manage their mental health journey.
+MindMatter is a mental wellness web application that helps users improve their mental health through meditation, mindfulness exercises, emotional support, and self-assessment tools. The platform provides personalized features for users to track and manage their mental health journey.
 
 ## Features
 
@@ -163,5 +163,5 @@ This project is licensed under the MIT License - see the [MIT](https://chooseali
 
 ## Demo
 
-https://mental-wellness-iota.vercel.app/
+https://mind-matter-app.vercel.app/
 
